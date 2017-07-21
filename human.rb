@@ -13,7 +13,7 @@ class Human
 
 
   def age
-    age = DateTime.now.year - @year_of_birth
+    DateTime.now.year - @year_of_birth
   end
 
   def head?
